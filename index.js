@@ -1,16 +1,14 @@
 import inquirer from "inquirer"
 import questions from "./questions.js"
-import chalk from 'chalk';
 
 const rubric = (score, possible) => {
     const percentage = score / possible * 100
     if (percentage < 50) {
-        return `you failed ${percentage}`
+        return `you failed ${percentage}%`
     } else {
-        return `You passed. ${percentage}`
+        return `You passed. ${percentage}%`
     }
 }
-
 
 const run = async (questions, inquirer, fn) => {
     let count = 0;

@@ -12,5 +12,5 @@
   "dependencies": {
     "inquirer": "^8.2.1"
   },
-  "type": "module",
+  "type": "module"
 }
