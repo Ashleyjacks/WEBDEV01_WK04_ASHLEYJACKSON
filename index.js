@@ -1,3 +1,4 @@
+import chalk from 'chalk';
 import inquirer from "inquirer"
 import questions from "./questions.js"
 
@@ -9,6 +10,8 @@ const rubric = (score, possible) => {
         return `You passed. ${percentage}%`
     }
 }
+
+console.log(chalk.bgRed("This quiz is based on Web development class"))
 
 const run = async (questions, inquirer, fn) => {
     let count = 0;
