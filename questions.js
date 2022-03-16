@@ -32,12 +32,6 @@ export default [
     {
         type: 'input',
         name: 'q4',
-        message: "How many assingments have we completed including this one?",
-        choices: [
-            4,
-            5,
-            6,
-            2
-        ]
-    },
+        message: "How many assingments have we completed including this one?"
+    }
 ]
